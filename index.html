@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+	<link rel="stylesheet" href="./index.css">
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+					class="react__img" alt="react">
+				<div class="top__text">React</div>
+				<div class="text">JavaScript library</div>
+				<div class="created__by">Created by <a href="https://github.com/OlegRabushko">Rabushko Oleg</a></div>
+			</section>
+			<section data-auto-animate data-auto-animate-duration='0'>
+				<div data-id="box">
+					<span class="top__text">What is a <span style="color: rgb(0, 204, 255);">React</span> ?</span>
+				</div>
+			</section>
+			<section data-auto-animate data-auto-animate-duration='0.1s'>
+				<div data-id="box">
+					<span class="top__text">What is a <span style="color: rgb(0, 204, 255);">React</span> ?</span>
+					<ul class="list">
+						<li>A JavaScript library for building user interfaces
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section data-auto-animate data-auto-animate-duration='0.1s'>
+				<div data-id="box">
+					<span class="top__text">What is a <span style="color: rgb(0, 204, 255);">React</span> ?</span>
+					<ul class="list">
+						<li>A JavaScript library for building user interfaces
+						</li>
+						<li>A great instrument for building scalable applications</li>
+					</ul>
+				</div>
+			</section>
+			<section data-auto-animate data-auto-animate-duration='0.1s'>
+				<div data-id="box">
+					<span class="top__text">What is a <span style="color: rgb(0, 204, 255);">React</span> ?</span>
+					<ul class="list">
+						<li>A JavaScript library for building user interfaces
+						</li>
+						<li>A great instrument for building scalable applications</li>
+						<li>React for Web / React Native</li>
+					</ul>
+				</div>
+			</section>
+			<section data-auto-animate data-auto-animate-duration='0'>
+				<div data-id="box__2">
+					<span class="top__text">Main features of <span style="color: rgb(0, 204, 255);">React</span></span>
+				</div>
+			</section>
+			<section data-auto-animate data-auto-animate-duration='0.1'>
+				<div data-id="box__2">
+					<span class="top__text">Main features of <span style="color: rgb(0, 204, 255);">React</span></span>
+				</div>
+				<ul class="list">
+					<li>JSX
+					</li>
+				</ul>
+			</section>
+			<section data-auto-animate data-auto-animate-duration='0.1'>
+				<div data-id="box__2">
+					<span class="top__text">Main features of <span style="color: rgb(0, 204, 255);">React</span></span>
+				</div>
+				<ul class="list">
+					<li>JSX
+					</li>
+					<li>Virtual DOM
+					</li>
+				</ul>
+			</section>
+			<section data-auto-animate data-auto-animate-duration='0.1'>
+				<div data-id="box__2">
+					<span class="top__text">Main features of <span style="color: rgb(0, 204, 255);">React</span></span>
+				</div>
+				<ul class="list">
+					<li>JSX
+					</li>
+					<li>Virtual DOM
+					</li>
+					<li>Reactive programming
+					</li>
+				</ul>
+			</section>
+			<section>
+				<section>
+					<div class="jsx">JSX</div>
+				</section>
+				<section>
+					<div class="jsx">JSX</div>
+					<div class="jsx__text">It is a JavaScript syntax extension that allows you to use HTML-like syntax to describe
+						the structure of
+						an interface.</div>
+				</section>
+				<section>
+					<div class="jsx">JSX</div>
+					<div class="jsx__text">It is a JavaScript syntax extension that allows you to use HTML-like syntax to describe
+						the structure of
+						an interface.</div>
+					<div class="text__withWithoutJsx">Without JSX:</div>
+					<pre><code  class="code__0" data-trim data-line-numbers>
+						const App = () => {
+							const box =	React.createElement("div");
+
+							return box.innerHTML = '<title>Hello World</title>';
+						}
+						</code></pre>
+				</section>
+				<section class="one">
+					<div class="jsx">JSX</div>
+					<div class="jsx__text">It is a JavaScript syntax extension that allows you to use HTML-like syntax to describe
+						the structure of
+						an interface.</div>
+					<div class="text__withWithoutJsx">Without JSX:</div>
+					<div class="flex__code">
+						<pre><code class="code__1" data-trim data-line-numbers>
+							const App = () => {
+								const box =	React.createElement("div");
+								return box.innerHTML = '<title>Hello World</title>';
+							}
+						</code></pre>
+						<pre><code class="code__2" data-trim data-line-numbers>
+							const App = () => {
+								const box =	React.createElement("div");
+								const title =	React.createElement("title", null, "Hello world!");
+								return box.append(title);
+							}
+						</code></pre>
+					</div>
+				</section>
+				<section>
+					<div class="jsx">JSX</div>
+					<div class="jsx__text">It is a JavaScript syntax extension that allows you to use HTML-like syntax to describe
+						the structure of
+						an interface.</div>
+					<div class="text__withWithoutJsx">Without JSX:</div>
+					<div class="flex__code">
+						<pre><code class="code__1" data-trim data-line-numbers>
+							const App = () => {
+								const box =	React.createElement("div");
+								return box.innerHTML = '<title>Hello World</title>';
+							}
+						</code></pre>
+						<pre><code class="code__2" data-trim data-line-numbers>
+							const App = () => {
+								const box =	React.createElement("div");
+								const title =	React.createElement("title", null, "Hello world!");
+								return box.append(title);
+							}
+						</code></pre>
+					</div>
+					<div class="text__withWithoutJsx">With JSX:</div>
+					<pre><code class="code__3" data-trim data-line-numbers>
+						const App = () => {
+							return(
+								<div>
+									<title>Hello World</title>
+								</div>
+							) 
+						}
+					</code></pre>
+				</section>
+			</section>
+			<section>
+				<section>
+					<div class="jsx">Virtual DOM</div>
+				</section>
+				<section>
+					<div class="jsx">Virtual DOM</div>
+					<img class="dom__img" src="./assets/vdom1.gif" alt="">
+				</section>
+			</section>
+			<section>
+				<div class="flex">
+					<img class="raket__img" src="./assets/raketa.png" alt="">
+					<div class="jsx">"Reactive programming"</div>
+				</div>
+			</section>
+			<section>
+				<div class="top__text">Get started with <span style="color: rgb(0, 204, 255);">React</span></div>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+					```
+					npx create-react-app
+					```
+				</textarea>
+			</section>
+			<section data-markdown>
+				<textarea data-template>
+					```
+					npm start
+					```
+				</textarea>
+			</section>
+			<section>
+				<div class="top__text">Congratulation!</div>
+				<img src="./assets/react-page.png" alt="">
+			</section>
+			<section data-auto-animate data-auto-animate-id="two" data-auto-animate-restart>
+				<h1>Nice code for everyone!</h1>
+			</section>
+			<section data-auto-animate data-auto-animate-id="two">
+				<h1 style="color: #61adeb;">Nice code for everyone!</h1>
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>

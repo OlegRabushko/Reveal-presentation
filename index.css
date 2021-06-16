@@ -1,0 +1,81 @@
+.react__img{
+width: 400px;
+}
+.top__text{
+font-size: 70px;
+}
+.text{
+  font-size:50px;
+}
+.created__by{
+  margin-top: 25px;
+  font-size:25px;
+}
+ul{
+  margin-top: 40px !important;
+}
+li{
+  text-align: left;
+  margin-top: 10px;
+}
+.jsx{
+  font-size: 80px;
+  margin-bottom: 20px;
+  color: rgb(0, 204, 255);
+}
+.mvs{
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: rgb(0, 204, 255);
+}
+.code__0{
+  margin: auto;
+}
+.flex__code .code__0{
+  width:450px;
+  font-size: 12px;
+}
+.code__1,.code__2{
+  width:455px;
+  font-size: 11px;
+}
+.one .code__1{
+  width:355px;
+
+}
+.one .code__2{
+width: 575px;
+font-size: 15px;
+border: 1px solid rgb(111, 194, 214);
+
+}
+
+.jsx__text{
+  font-size: 20px;
+  width: 500px;
+  margin: auto;
+}
+.flex__code{
+  margin-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.text__withWithoutJsx{
+  color: rgb(119, 168, 200);
+  margin-top: 20px;
+font-size: 20px;
+}
+.dom__img{
+  border-radius: 10px;
+  height: 500px;
+}
+.flex{
+  display: flex;
+}
+.raket__img{
+width: 300px;
+}
+h1{
+  font-size: 50px !important;
+  text-transform: capitalize!important;
+}
