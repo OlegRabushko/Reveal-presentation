@@ -1,11 +1,13 @@
 # React
 
 Hi, my name is Oleg, I’m frontend developer and now a want tell you about React.
+
 ---------------
 
 React – what is it? Official documentation presents us such a definition: React - is a JavaScript library for building user interfaces.
 React - a great instrument for building scalable applications. That is, React help us creating applications, which easy break into small components and also help increase productivity for every component separately.
 At first, React was intended for the web, but then appeared the React Native platform, designed for mobile device. 
+
 --------------
 
 Next block - main features of React
@@ -26,10 +28,12 @@ Virtual DOM
 All structure of a web page can be represented using the DOM. Document Object Model – It’s HTML elements organization, which we can manipulate, deleting or adding new. For interaction with DOM used JavaScript. 
 Virtual DOM appear a copy of usually DOM. React work with Virtual DOM. If we want get information about state of elements, we are appeal to Virtual DOM.
 If necessary change element of web-page, changes at first added in Virtual DOM. Then new state Virtual DOM is compared with the current state. And if this states difference, React finding minimal counts of manipulation and then rerender DOM. As you can see in this gif-picture.
+
 -----------------
 
 Last feature which I have highlighted: Reactive programming. 
 React was built on Reactive programming paradigm. This declaration approach proposes to describe data as set of affirmation or formulas. If one params changed, dependencies are automatically recalculate.  
+
 --------------------
 
 Now tell you, how get started work with React
@@ -40,6 +44,7 @@ But npx uses NodeJs to load commands. Therefore, you need to install NodeJs. If 
 Next step – run “npm start” command. React will open for you window in browser on localhost:3000.
 
 That’s all. Congratulations! you are launched React!
+
 ------------------------
 
 Ok, I finished my presentation and I would like to summarize. I briefly told you about React library, what is it, main features and how start to work with him.
